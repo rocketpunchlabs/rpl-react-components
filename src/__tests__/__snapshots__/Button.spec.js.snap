@@ -1,0 +1,417 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders without crashing 1`] = `
+.c0 {
+  background: white;
+  font-family: sans-serif;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: black!important;
+  border-radius: 4px;
+  padding: 9px 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
+}
+
+.c0:hover {
+  text-decoration: none;
+  background: hsl(0,0%,90%);
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,0.1),0 3px 6px rgba(0,0,0,0.08);
+}
+
+<a
+  className="c0"
+>
+  Hello
+</a>
+`;
+
+exports[`Button should default to black text 1`] = `
+.c0 {
+  background: white;
+  font-family: sans-serif;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: black!important;
+  border-radius: 4px;
+  padding: 9px 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
+}
+
+.c0:hover {
+  text-decoration: none;
+  background: hsl(0,0%,90%);
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,0.1),0 3px 6px rgba(0,0,0,0.08);
+}
+
+<a
+  className="c0"
+>
+  Hello
+</a>
+`;
+
+exports[`Button should default to white background 1`] = `
+.c0 {
+  background: white;
+  font-family: sans-serif;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: black!important;
+  border-radius: 4px;
+  padding: 9px 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
+}
+
+.c0:hover {
+  text-decoration: none;
+  background: hsl(0,0%,90%);
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,0.1),0 3px 6px rgba(0,0,0,0.08);
+}
+
+<a
+  className="c0"
+>
+  Hello
+</a>
+`;
+
+exports[`Button should pass an onClick 1`] = `
+.c0 {
+  background: white;
+  font-family: sans-serif;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: black!important;
+  border-radius: 4px;
+  padding: 9px 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
+}
+
+.c0:hover {
+  text-decoration: none;
+  background: hsl(0,0%,90%);
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,0.1),0 3px 6px rgba(0,0,0,0.08);
+}
+
+<a
+  className="c0"
+  onClick={[Function]}
+>
+  Hello
+</a>
+`;
+
+exports[`Button should perform the onClick 1`] = `
+.c0 {
+  background: white;
+  font-family: sans-serif;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: black!important;
+  border-radius: 4px;
+  padding: 9px 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
+}
+
+.c0:hover {
+  text-decoration: none;
+  background: hsl(0,0%,90%);
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,0.1),0 3px 6px rgba(0,0,0,0.08);
+}
+
+<a
+  className="c0"
+  onClick={[Function]}
+>
+  Hello
+</a>
+`;
+
+exports[`Button should perform the onClick 2`] = `
+<a
+  className="sc-bdVaJa ljxPpA"
+  onClick={[Function]}
+>
+  Hello
+</a>
+`;
+
+exports[`Button should render a link 1`] = `
+.c0 {
+  background: white;
+  font-family: sans-serif;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: black!important;
+  border-radius: 4px;
+  padding: 9px 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
+}
+
+.c0:hover {
+  text-decoration: none;
+  background: hsl(0,0%,90%);
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,0.1),0 3px 6px rgba(0,0,0,0.08);
+}
+
+<a
+  className="c0"
+  href="https://www.google.com"
+>
+  Google
+</a>
+`;
+
+exports[`Button should render block button 1`] = `
+.c0 {
+  background: white;
+  font-family: sans-serif;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: black!important;
+  border-radius: 4px;
+  padding: 9px 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
+}
+
+.c0:hover {
+  text-decoration: none;
+  background: hsl(0,0%,90%);
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,0.1),0 3px 6px rgba(0,0,0,0.08);
+}
+
+<a
+  className="c0"
+>
+  Hello
+</a>
+`;
+
+exports[`Button should render blue button 1`] = `
+.c0 {
+  background: #3498db;
+  font-family: sans-serif;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: white!important;
+  border-radius: 4px;
+  padding: 9px 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
+}
+
+.c0:hover {
+  text-decoration: none;
+  background: hsl(204.10000000000002,69.9%,47.8%);
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,0.1),0 3px 6px rgba(0,0,0,0.08);
+}
+
+<a
+  className="c0"
+>
+  Hello
+</a>
+`;
+
+exports[`Button should render large button 1`] = `
+.c0 {
+  background: white;
+  font-family: sans-serif;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: black!important;
+  border-radius: 4px;
+  padding: 9px 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.c0:hover {
+  text-decoration: none;
+  background: hsl(0,0%,90%);
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,0.1),0 3px 6px rgba(0,0,0,0.08);
+}
+
+<a
+  className="c0"
+>
+  Hello
+</a>
+`;
+
+exports[`Button should render small button 1`] = `
+.c0 {
+  background: white;
+  font-family: sans-serif;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  color: black!important;
+  border-radius: 4px;
+  padding: 9px 24px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
+  font-size: 12px;
+  padding: 6px 18px;
+}
+
+.c0:hover {
+  text-decoration: none;
+  background: hsl(0,0%,90%);
+  -webkit-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,0.1),0 3px 6px rgba(0,0,0,0.08);
+}
+
+<a
+  className="c0"
+>
+  Hello
+</a>
+`;
