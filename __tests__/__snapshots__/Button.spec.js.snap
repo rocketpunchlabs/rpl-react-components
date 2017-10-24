@@ -2,7 +2,7 @@
 
 exports[`Button renders without crashing 1`] = `
 .c0 {
-  background: white;
+  background: #FFFFFF;
   font-family: sans-serif;
   line-height: 18px;
   text-align: center;
@@ -10,7 +10,7 @@ exports[`Button renders without crashing 1`] = `
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: lighter;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.025em;
   -moz-letter-spacing: 0.025em;
@@ -42,7 +42,7 @@ exports[`Button renders without crashing 1`] = `
 
 exports[`Button should default to black text 1`] = `
 .c0 {
-  background: white;
+  background: #FFFFFF;
   font-family: sans-serif;
   line-height: 18px;
   text-align: center;
@@ -50,7 +50,7 @@ exports[`Button should default to black text 1`] = `
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: lighter;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.025em;
   -moz-letter-spacing: 0.025em;
@@ -82,7 +82,7 @@ exports[`Button should default to black text 1`] = `
 
 exports[`Button should default to white background 1`] = `
 .c0 {
-  background: white;
+  background: #FFFFFF;
   font-family: sans-serif;
   line-height: 18px;
   text-align: center;
@@ -90,7 +90,7 @@ exports[`Button should default to white background 1`] = `
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: lighter;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.025em;
   -moz-letter-spacing: 0.025em;
@@ -122,7 +122,7 @@ exports[`Button should default to white background 1`] = `
 
 exports[`Button should pass an onClick 1`] = `
 .c0 {
-  background: white;
+  background: #FFFFFF;
   font-family: sans-serif;
   line-height: 18px;
   text-align: center;
@@ -130,7 +130,7 @@ exports[`Button should pass an onClick 1`] = `
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: lighter;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.025em;
   -moz-letter-spacing: 0.025em;
@@ -163,7 +163,7 @@ exports[`Button should pass an onClick 1`] = `
 
 exports[`Button should perform the onClick 1`] = `
 .c0 {
-  background: white;
+  background: #FFFFFF;
   font-family: sans-serif;
   line-height: 18px;
   text-align: center;
@@ -171,7 +171,7 @@ exports[`Button should perform the onClick 1`] = `
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: lighter;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.025em;
   -moz-letter-spacing: 0.025em;
@@ -204,7 +204,7 @@ exports[`Button should perform the onClick 1`] = `
 
 exports[`Button should perform the onClick 2`] = `
 <a
-  className="sc-bdVaJa ljxPpA"
+  className="sc-bdVaJa fTkNBz"
   onClick={[Function]}
 >
   Hello
@@ -213,7 +213,7 @@ exports[`Button should perform the onClick 2`] = `
 
 exports[`Button should render a link 1`] = `
 .c0 {
-  background: white;
+  background: #FFFFFF;
   font-family: sans-serif;
   line-height: 18px;
   text-align: center;
@@ -221,7 +221,7 @@ exports[`Button should render a link 1`] = `
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: lighter;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.025em;
   -moz-letter-spacing: 0.025em;
@@ -254,7 +254,7 @@ exports[`Button should render a link 1`] = `
 
 exports[`Button should render block button 1`] = `
 .c0 {
-  background: white;
+  background: #FFFFFF;
   font-family: sans-serif;
   line-height: 18px;
   text-align: center;
@@ -262,7 +262,7 @@ exports[`Button should render block button 1`] = `
   cursor: pointer;
   display: block;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: lighter;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.025em;
   -moz-letter-spacing: 0.025em;
@@ -302,7 +302,7 @@ exports[`Button should render blue button 1`] = `
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: lighter;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.025em;
   -moz-letter-spacing: 0.025em;
@@ -334,7 +334,7 @@ exports[`Button should render blue button 1`] = `
 
 exports[`Button should render large button 1`] = `
 .c0 {
-  background: white;
+  background: #FFFFFF;
   font-family: sans-serif;
   line-height: 18px;
   text-align: center;
@@ -342,7 +342,7 @@ exports[`Button should render large button 1`] = `
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: lighter;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.025em;
   -moz-letter-spacing: 0.025em;
@@ -354,8 +354,8 @@ exports[`Button should render large button 1`] = `
   -webkit-transition: 0.15s;
   transition: 0.15s;
   box-shadow: 0 4px 6px rgba(50,50,93,0.11),0 1px 3px rgba(0,0,0,0.08);
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .c0:hover {
@@ -376,7 +376,7 @@ exports[`Button should render large button 1`] = `
 
 exports[`Button should render small button 1`] = `
 .c0 {
-  background: white;
+  background: #FFFFFF;
   font-family: sans-serif;
   line-height: 18px;
   text-align: center;
@@ -384,7 +384,7 @@ exports[`Button should render small button 1`] = `
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: lighter;
   text-transform: uppercase;
   -webkit-letter-spacing: 0.025em;
   -moz-letter-spacing: 0.025em;

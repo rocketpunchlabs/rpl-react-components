@@ -26,7 +26,7 @@ describe('Button', () => {
   it('should default to white background', () => {
     const tree = renderer.create(<Button>Hello</Button>).toJSON();
     expect(tree).toMatchSnapshot();
-    expect(tree).toHaveStyleRule('background', 'white');
+    expect(tree).toHaveStyleRule('background', '#FFFFFF');
   });
 
   it('should render children', () => {
@@ -37,7 +37,7 @@ describe('Button', () => {
   it('should render large button', () => {
     const tree = renderer.create(<Button large>Hello</Button>).toJSON();
     expect(tree).toMatchSnapshot();
-    expect(tree).toHaveStyleRule('font-size', '24px');
+    expect(tree).toHaveStyleRule('font-size', '20px');
   });
 
   it('should render small button', () => {
