@@ -10,10 +10,10 @@ import { setDefaults } from '@storybook/addon-info';
 
 import { Welcome } from '@storybook/react/demo';
 
-import { Button } from '../lib';
+import { Button, Input, Card } from '../lib';
 
 import * as colors from '../lib/styles/colors';
-// console.log(colors);
+
 const colorsArr = Object.keys(colors)
   .filter(color => color !== 'default')
   .map(color => {
@@ -49,6 +49,20 @@ storiesOf('Welcome', module).add('to Storybook', () => (
 ));
 
 storiesOf('Colors', module).add('Color Scheme', () => <Colors />);
+
+storiesOf('Card', module).add('Card', () => (
+  <Card
+    width="400px"
+    src="https://picsum.photos/640/420?image=738"
+    tag="Video · Sermon"
+    title="This is a test title."
+    href="https://www.google.com"
+  />
+));
+
+storiesOf('Input', module).add('Text Field', () => (
+  <Input placeholder="Test Placeholder" />
+));
 
 storiesOf('Button', module)
   .add(
