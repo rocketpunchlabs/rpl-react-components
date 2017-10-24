@@ -13,7 +13,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "deploy-storybook":
+    "deploy-storybook": "storybook-to-ghpages",
+    "deploy-storybook-netlify":
       "yarn build-storybook && cd storybook-static && netlify deploy"
   },
   "devDependencies": {
