@@ -1,7 +1,7 @@
 {
   "name": "rpl-components",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
   "dependencies": {},
   "main": "build/index.js",
   "scripts": {
